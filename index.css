@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #092e25,
+        #145b46
+    );
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.container {
+    background: #ffffff;
+
+    color: #164b3b;
+
+    width: 350px;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 27px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+/* Tasbih Circle */
+
+.tasbih-circle {
+    width: 180px;
+    height: 180px;
+
+    border: 8px solid #c5a45b;
+
+    border-radius: 50%;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #eaf4ef;
+}
+
+.tasbih-circle h2 {
+    font-size: 55px;
+}
+
+.tasbih-circle p {
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+/* Target Selection */
+
+.target {
+    margin: 25px 0;
+}
+
+select {
+    padding: 8px;
+
+    border-radius: 8px;
+
+    border: 1px solid #aaa;
+
+    margin-left: 10px;
+}
+
+/* Buttons */
+
+button {
+    padding: 12px 18px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    margin: 5px;
+
+    background: #145b46;
+
+    color: white;
+}
+
+button:hover {
+    background: #c5a45b;
+    color: #163d31;
+}
+
+/* Message */
+
+#message {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* Timer */
+
+.timer {
+    margin-top: 20px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #ddd;
+}
+
+.timer h3 {
+    margin-bottom: 10px;
+}
+
+.timer h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
